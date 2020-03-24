@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Customer {
+class Customer {
     Random rand = new Random();
     Scanner get = new Scanner(System.in);
 
@@ -9,18 +9,21 @@ public class Customer {
     double balance = rand.nextInt(2200);
     double balanceBank = rand.nextInt(2200);
 
+    
 
 
-    public double getBalance() {
+    double getBalance() {
         return balance;
     }
 
-    public double getBalanceBank() {
+    double getBalanceBank() {
         return balanceBank;
     }
 
-    public int getCustomerID(){
+    int getCustomerID(){
         return customerID;
     }
+
+
 
 }
